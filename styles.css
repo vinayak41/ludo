@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  background-image: url("/images/ludo-board.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+.dice-box {
+  width: 60px;
+  border: 1px solid red;
+  height: 60px;
+  margin-top: 5px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
